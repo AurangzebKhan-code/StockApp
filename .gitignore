@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Build files
+/build
+/dist
+/android/app/build
+/ios/build
+
+# Android build-specific directories with long filenames
+/android/app/.cxx/
+/android/**/*.o
+/android/**/*.so
+/android/**/generated/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Android
+.gradle
+/android/captures
+/android/local.properties
+*.keystore
+!debug.keystore
+
+# iOS
+/ios/Pods
+/ios/*.xcworkspace
+/ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata
+
+# Expo
+.expo
+web-build/
+
+# Metro bundler
+.metro-health-check*
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor files
+.idea
+.vscode
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Testing
+/coverage
